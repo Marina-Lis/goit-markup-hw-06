@@ -372,10 +372,14 @@
                         class="modal-text"></textarea>
                 </div>
                 <div class="modal-field modal-check-wrap">
-                        <label class="check-text">
-                        <input type="checkbox" class="modal-checkbox sr-only" name="agreement" value="true">
-                        <span class="checkbox-icon">                            
-                        </span> Соглашаюсь с рассылкой и принимаю <span class="check-link"> Условия договора</span>
+                    <input type="checkbox" class="modal-checkbox sr-only" name="agreement" value="true" id="agree">
+                    <label for="agree" class="check-text">
+                        <span class="checkbox-icon">
+                            <svg class="check-icon" width="11" height="8">
+                                <use href="./images/symbol-defs.svg#icon-check"></use>
+                            </svg>
+                        </span> Соглашаюсь с рассылкой и принимаю
+                        <span class="check-link"> Условия договора</span>
                     </label>
                 </div>
                 <button type="submit" class="modal-main-btn">Отправить</button>
